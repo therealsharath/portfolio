@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.appHome {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding-left: 5vw;
+}
+
+.mainTitle {
+    color: #fff;
+    font-family: 'Bree Serif', serif;
+    font-size: 5vw;
+    padding-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 27vw;
+    min-width: 250px;
+}
+
+.story {
+    border: #fff;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    width: 11vw;
+    min-width: 100px;
+    padding: 1vw;
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.play {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15vw;
+    min-width: 150px;
+    padding: 1vw;
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.icon {
+    font-size: 3vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+.story:hover {
+    color: #000;
+    background-color: #e8bc53;
+    border: #e8bc53;
+}
+
+.play:hover {
+    color: #e8bc53;
+    cursor: pointer;
+}
+
+.modal {
+    font-size: 12px;
+}
+
+.modal > .content {
+    width: 100%;
+}
+
+.modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+}
+
+@media (max-width:768px) {
+    .mainTitle {
+        font-size: 7vw;
+    }
+}
+
+@media (max-width:500px) {
+    .mainTitle {
+        font-size: 10vw;
+    }
+
+    .story {
+        font-size: 3vw;
+        min-width: 190px;
+        padding: 2vw;
+    }
+
+    .play {
+        padding-top: 20px;
+        font-size: 4vw;
+        min-width: 190px;
+        padding-left: 0px;
+    }
+
+    .icon {
+        font-size: 7vw;
+    }
+
+    .template {
+        width: 100%;
+    }
+}
