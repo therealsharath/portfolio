@@ -70,6 +70,7 @@ a {
     color: #000;
     background-color: #e8bc53;
     border: #e8bc53;
+    text-decoration: none;
 }
 
 .play:hover {
@@ -77,26 +78,14 @@ a {
     cursor: pointer;
 }
 
-.modal {
-    font-size: 12px;
-}
-
-.modal > .content {
+.mainVideo {
     width: 100%;
 }
 
-.modal > .close {
-    cursor: pointer;
-    position: absolute;
-    display: block;
-    padding: 2px 5px;
-    line-height: 20px;
-    right: -10px;
-    top: -10px;
-    font-size: 24px;
-    background: #ffffff;
-    border-radius: 18px;
-    border: 1px solid #cfcece;
+.subTitle {
+    font-family: 'Bree Serif', serif;
+    font-size: 20%;
+    font-weight: 900;
 }
 
 @media (max-width:768px) {

@@ -1,3 +1,42 @@
 .portHome {
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 6vh;
+}
+
+.port {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.portIcon {
+    font-size: 3vw;
+    padding-right: 5px;
+}
+
+.portTitle {
+    font-size: 3vw;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3vh;
+    max-width: 90%;
+}
+
+@media (max-width:500px) {
+    .portIcon {
+        font-size: 8vw;
+    }
+    .portTitle {
+        font-size: 6vw;
+    }
 }

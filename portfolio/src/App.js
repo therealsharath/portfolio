@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/Home';
+import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
-
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,6 +22,7 @@ function App() {
               </video>
               <Navbar className="navbar"/>
               <Home/>
+              <Portfolio/>
               <Footer/>
             </Route>
             <Route path="/story">

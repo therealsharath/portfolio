@@ -1,0 +1,14 @@
+.deck {
+    padding: 10px;    
+}
+
+.title {
+    font-size: 1.25vw;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 3.5vw;
+    }
+}
