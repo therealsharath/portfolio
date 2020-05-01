@@ -12,3 +12,7 @@
     font-size: 4vh;
     color: #fff;
 }
+
+.footerContainer a:hover {
+    color: #e8bc53;
+}
