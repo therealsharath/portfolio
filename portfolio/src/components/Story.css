@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
-
 .storyHolder {
-    max-height: 100vh;
+    min-height: 100vh;
     padding: 2vw;
 }
 
@@ -14,7 +13,7 @@
     min-width: 100%;
     right: 0;
     bottom: 0;
-    filter: brightness(0.5);
+    filter: brightness(0.25);
 }
 
 .goBack {
@@ -42,6 +41,7 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
     color: #fff;
     padding-top: 1vw;
+    max-width: 30vw;
 }
 
 .storyTitle {
@@ -50,13 +50,17 @@ a:hover {
     font-size: 3vw;
 }
 
-.storyWrapper {
-    width: 2%;
+.sub {
+    font-size: 1vw;
 }
 
-@media (max-width:500px) {
+@media (max-width:768px) {
     .storyHolder {
         padding: 0;
+    }
+    .storyVideo {
+        left: 0;
+        filter: brightness(0.35);
     }
     .goBack {
         padding: 3vw;
@@ -70,11 +74,9 @@ a:hover {
     .storyContent {
         padding: 4vw;
         padding-top: 2vw;
+        max-width: 100vw;
     }
     .storyTitle {
-        font-size: 7vw;
-    }
-    .timeline-fff {
-        border-left-width: 1vw;
+        font-size: 11vw;
     }
 }

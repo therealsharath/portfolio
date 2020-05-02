@@ -5,16 +5,15 @@ import Headshot from '../Headshot.jpeg';
 const tech = [
     'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png',
     'https://2ality.com/2011/10/logo-js/js.jpg',
+    'https://i.pinimg.com/originals/f1/ea/a7/f1eaa7278f64e27128e062a3de918265.png',
     'https://www.pngkit.com/png/full/101-1010012_c-programming-icon-c-programming-language-logo.png',
     'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png',
-    'https://i.pinimg.com/originals/f1/ea/a7/f1eaa7278f64e27128e062a3de918265.png',
     'https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png',
     'https://cdn.auth0.com/blog/react-js/react.png',
     'https://starllysolutions.com/img/django.png',
     'https://staging.contentsquare.com/wp-content/uploads/2019/01/AWS_Logo@3x-8-1200x1200.png',
     'https://img.icons8.com/color/480/firebase.png',
-    'https://lh3.googleusercontent.com/proxy/vc48fw5vLilWr4KNdZdwI0rgbqRhMP99hlariSGGOKtQa-WIh9eSMH9Dycf0NYTdA9UyE9wA22yFEWEEowLYm9HtEhX3eW3TIHQLAZaMiZeBwF35H_s7QOsObuWXascj4aU0lg',
-
+    'https://miro.medium.com/max/1000/1*ilC2Aqp5sZd1wi0CopD1Hw.png',
 ]
 
 function About() {
