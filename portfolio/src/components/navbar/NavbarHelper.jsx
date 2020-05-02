@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import { useSpring, animated, config } from 'react-spring';
 import { Link } from "react-scroll";
 
-import Brand from "./Brand";
-import BurgerMenu from "./BurgerMenu";
-import CollapseMenu from "./CollapseMenu";
+import Brand from "./Brand.jsx";
+import BurgerMenu from "./BurgerMenu.jsx";
+import CollapseMenu from "./CollapseMenu.jsx";
 
 const NavbarHelper = (props) => {
   const barAnimation = useSpring({

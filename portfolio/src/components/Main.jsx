@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from './navbar/Navbar';
-import Home from './Home';
-import About from './About';
-import Portfolio from './Portfolio';
-import Footer from './Footer';
+import Navbar from './navbar/Navbar.jsx';
+import Home from './Home.jsx';
+import About from './About.jsx';
+import Portfolio from './Portfolio.jsx';
+import Footer from './Footer.jsx';
 import bg from '../bgVideo.mp4';
 import './Main.css';
 

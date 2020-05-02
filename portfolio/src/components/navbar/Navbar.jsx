@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import NavbarHelper from './NavbarHelper';
+import NavbarHelper from './NavbarHelper.jsx';
 
 import GlobalStyle from './styles/Global.js';
 
