@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
 import {FaPlayCircle} from 'react-icons/fa';
 import mainVid from '../mainVideo.mp4';
+import Link from 'react-router-dom';
 import './Home.css';
 
 function Home() {
@@ -18,7 +18,7 @@ function Home() {
                 Palathingal
             </div>
             <div className="buttons">
-                <a href="/story" className="story">My Story</a>
+                <a href="#/story" className="story">My Story</a>
                 <div className="play" onClick={handleShow}>
                     <FaPlayCircle className="icon"/>
                     Watch Video

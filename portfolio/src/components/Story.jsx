@@ -14,7 +14,7 @@ function Story() {
                 <source src={storyVid}></source>
             </video>
             <Fade top>
-            <a href="/" className="goBack">
+            <a href="/portfolio" className="goBack">
                 <FaChevronCircleLeft/>
                 <font className="backText">Website</font>
             </a>
