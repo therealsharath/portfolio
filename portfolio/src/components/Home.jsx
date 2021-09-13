@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import Modal from 'react-bootstrap/Modal';
 import {FaPlayCircle} from 'react-icons/fa';
-import mainVid from '../mainVideo.mp4';
 import './css/Home.css';
 
 function Home() {
@@ -29,7 +28,7 @@ function Home() {
                 </Modal.Header>
                 <Modal.Body>
                     <video className="mainVideo" controls autoPlay>
-                        <source src={mainVid}></source>
+                        <source src={process.env.PUBLIC_URL + '/videos/mainVideo.mp4'}></source>
                     </video>
                 </Modal.Body>
             </Modal>

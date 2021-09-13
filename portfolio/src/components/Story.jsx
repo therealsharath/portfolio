@@ -3,7 +3,6 @@ import { Timeline, Event } from 'react-trivial-timeline';
 import Fade from 'react-reveal/Fade';
 import { FaChevronCircleLeft } from 'react-icons/fa';
 import Footer from './Footer.jsx';
-import storyVid from '../storyVid.mp4';
 import './css/Story.css';
 
 function Story() {
@@ -11,7 +10,7 @@ function Story() {
         <div>
         <div className="storyHolder">
             <video className="storyVideo" autoPlay muted loop>
-                <source src={storyVid}></source>
+                <source src={process.env.PUBLIC_URL + '/videos/storyVid.mp4'}></source>
             </video>
             <Fade top>
             <a href="/portfolio" className="goBack">

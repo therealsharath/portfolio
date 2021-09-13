@@ -1,6 +1,5 @@
 import React from 'react';
 import './css/About.css';
-import Headshot from '../Headshot.jpeg';
 
 const tech = [
     'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png',
@@ -19,7 +18,7 @@ function About() {
     return(
         <div id="about" className="aboutContainer">
             <div className="photoWrapper">
-                <img alt="headshot" className="photo" src={Headshot}/>
+                <img alt="headshot" className="photo" src={process.env.PUBLIC_URL + '/images/headshot.jpeg'}/>
             </div>
             <div className="aboutWrapper">
                 <font className="aboutTitle">What do I do?</font>
