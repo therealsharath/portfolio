@@ -16,7 +16,7 @@ function CustomCard(props) {
                     <Card.Text>
                         {props.description}
                     </Card.Text>
-                    <a href={props.link} target="_blank"><Button size="lg" variant="outline-light">View Project</Button></a>
+                    <a href={props.link} target="_blank" rel="noopener noreferrer"><Button size="lg" variant="outline-light">View Project</Button></a>
                 </Card.Body>
             </Card>
         </div>

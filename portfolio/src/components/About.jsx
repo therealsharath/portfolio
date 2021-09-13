@@ -19,7 +19,7 @@ function About() {
     return(
         <div id="about" className="aboutContainer">
             <div className="photoWrapper">
-                <img className="photo" src={Headshot}/>
+                <img alt="headshot" className="photo" src={Headshot}/>
             </div>
             <div className="aboutWrapper">
                 <font className="aboutTitle">What do I do?</font>
@@ -31,7 +31,7 @@ function About() {
                 <font className="aboutTitle">I work with...</font>
                 <div className="aboutTech">
                 {tech.map(obj => (
-                    <img src={obj} className="aboutTn"/>
+                    <img alt="language_img" src={obj} className="aboutTn"/>
                 ))}
                 </div>
             </div>
