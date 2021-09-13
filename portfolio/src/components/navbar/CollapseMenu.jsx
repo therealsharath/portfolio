@@ -16,9 +16,21 @@ const CollapseMenu = (props) => {
       }}
       >
         <NavLinks>
-          <li><Link to="home" spy={true} smooth={true} duration={500} onClick={props.handleNavbar}><a>Home</a></Link></li>
-          <li><Link to="about" spy={true} smooth={true} duration={500} onClick={props.handleNavbar}><a>About</a></Link></li>
-          <li><Link to="portfolio" spy={true} smooth={true} duration={500} onClick={props.handleNavbar}><a>Portfolio</a></Link></li>
+          <li>
+            <Link to="home" spy={true} smooth={true} duration={500} onClick={props.handleNavbar}>
+              <span>Home</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="about" spy={true} smooth={true} duration={500} onClick={props.handleNavbar}>
+              <span>About</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="portfolio" spy={true} smooth={true} duration={500} onClick={props.handleNavbar}>
+              <span>Portfolio</span>
+            </Link>
+          </li>
         </NavLinks>
       </CollapseWrapper>
     );
@@ -52,7 +64,7 @@ const NavLinks = styled.ul`
     transition: all 500ms linear 0s;
   }
 
-  & a {
+  & span {
     font-size: 2.5vh;
     line-height: 5vh;
     color: #dfe6e9;

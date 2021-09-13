@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import { FaChevronCircleLeft } from 'react-icons/fa';
 import Footer from './Footer.jsx';
 import storyVid from '../storyVid.mp4';
-import './Story.css';
+import './css/Story.css';
 
 function Story() {
     return(

@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import './css/About.css';
 import Headshot from '../Headshot.jpeg';
 
 const tech = [
@@ -11,7 +11,6 @@ const tech = [
     'https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png',
     'https://cdn.auth0.com/blog/react-js/react.png',
     'https://starllysolutions.com/img/django.png',
-    'https://staging.contentsquare.com/wp-content/uploads/2019/01/AWS_Logo@3x-8-1200x1200.png',
     'https://img.icons8.com/color/480/firebase.png',
     'https://miro.medium.com/max/1000/1*ilC2Aqp5sZd1wi0CopD1Hw.png',
 ]

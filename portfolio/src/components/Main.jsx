@@ -5,7 +5,7 @@ import About from './About.jsx';
 import Portfolio from './Portfolio.jsx';
 import Footer from './Footer.jsx';
 import bg from '../bgVideo.mp4';
-import './Main.css';
+import './css/Main.css';
 
 function Main() {
     return(

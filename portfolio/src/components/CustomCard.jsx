@@ -2,7 +2,7 @@ import React from 'react';
 import windowSize from 'react-window-size';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import './Card.css';
+import './css/CustomCard.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function CustomCard(props) {

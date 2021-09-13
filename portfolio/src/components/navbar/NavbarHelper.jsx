@@ -26,9 +26,9 @@ const NavbarHelper = (props) => {
         <FlexContainer>
           <Brand />
           <NavLinks style={linkAnimation}>
-            <Link to="home" spy={true} smooth={true} duration={500}><a>Home</a></Link>
-            <Link to="about" spy={true} smooth={true} duration={500}><a>About</a></Link>
-            <Link to="portfolio" spy={true} smooth={true} duration={500}><a>Portfolio</a></Link>
+            <Link to="home" spy={true} smooth={true} duration={500}><span>Home</span></Link>
+            <Link to="about" spy={true} smooth={true} duration={500}><span>About</span></Link>
+            <Link to="portfolio" spy={true} smooth={true} duration={500}><span>Portfolio</span></Link>
           </NavLinks>
           <BurgerWrapper>
             <BurgerMenu
@@ -76,7 +76,7 @@ const NavLinks = styled(animated.ul)`
   list-style-type: none;
   margin: auto 0;
   
-  & a {
+  & span {
     color: #dfe6e9;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;

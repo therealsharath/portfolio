@@ -2,8 +2,7 @@ import React, {useState} from 'react';
 import Modal from 'react-bootstrap/Modal';
 import {FaPlayCircle} from 'react-icons/fa';
 import mainVid from '../mainVideo.mp4';
-import Link from 'react-router-dom';
-import './Home.css';
+import './css/Home.css';
 
 function Home() {
     const [show, setShow] = useState(false);

@@ -2,7 +2,7 @@ import React from 'react';
 import Flip from 'react-reveal/Flip';
 import Card from './CustomCard';
 import { FaReact, FaMobileAlt } from 'react-icons/fa';
-import './Portfolio.css';
+import './css/Portfolio.css';
 
 const portfolio = [
     {
