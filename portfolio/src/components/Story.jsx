@@ -3,6 +3,7 @@ import { Timeline, Event } from 'react-trivial-timeline';
 import Fade from 'react-reveal/Fade';
 import { FaChevronCircleLeft } from 'react-icons/fa';
 import Footer from './Footer.jsx';
+import {Link} from 'react-router-dom'
 import './css/Story.css';
 
 function Story() {
@@ -13,10 +14,10 @@ function Story() {
                 <source src={process.env.PUBLIC_URL + '/videos/storyVid.mp4'}></source>
             </video>
             <Fade top>
-            <a href="/portfolio" className="goBack">
+            <Link to="/" className="goBack">
                 <FaChevronCircleLeft/>
                 <font className="backText">Website</font>
-            </a>
+            </Link>
             </Fade>
             <div className="storyContent">
                 <font className="storyTitle">Milestones</font>
