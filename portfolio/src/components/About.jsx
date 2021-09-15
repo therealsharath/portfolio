@@ -30,7 +30,7 @@ function About() {
                 <font className="aboutTitle">I work with...</font>
                 <div className="aboutTech">
                 {tech.map(obj => (
-                    <img alt="language_img" src={obj} className="aboutTn"/>
+                    <img alt="language_img" src={obj} className="aboutTn" key={obj.split('/')[obj.split('/').length - 1].split('.')[0]}/>
                 ))}
                 </div>
             </div>

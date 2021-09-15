@@ -89,7 +89,7 @@ function Portfolio() {
             </div>
             <div className="projects">
             {portfolio[0].rprojects.map(portfolioProject => (
-                <Flip top>
+                <Flip top key={portfolioProject.name}>
                     <Card image={portfolioProject.image} name={portfolioProject.name} purpose={portfolioProject.purpose} 
                     date={portfolioProject.date} status={portfolioProject.status} link={portfolioProject.link} description={portfolioProject.description}/>
                 </Flip>
@@ -102,7 +102,7 @@ function Portfolio() {
             </div>
             <div className="projects">
             {portfolio[1].rprojects.map(portfolioProject => (
-                <Flip top>
+                <Flip top key={portfolioProject.name}>
                     <Card image={portfolioProject.image} name={portfolioProject.name} purpose={portfolioProject.purpose} 
                     date={portfolioProject.date} status={portfolioProject.status} link={portfolioProject.link} description={portfolioProject.description}/>
                 </Flip>
