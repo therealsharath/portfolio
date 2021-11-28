@@ -9,14 +9,15 @@ import './css/Main.css';
 function Main() {
     return(
         <div>
-            <video className="bgVideo" controls autoPlay muted loop onLoad={console.log("Video loaded")}>
+            {/* <video className="bgVideo" controls autoPlay muted loop onLoad={console.log("Video loaded")}>
                 <source src={process.env.PUBLIC_URL + './videos/bgVideo.mp4'}></source>
             </video>
             <Navbar/>
             <Home/>
             <About/>
             <Portfolio/>
-            <Footer/>
+            <Footer/> */}
+            Hey
         </div>
     )
 }
